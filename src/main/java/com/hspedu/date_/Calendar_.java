@@ -13,7 +13,7 @@ public class Calendar_ {
 		System.out.println("分钟" + c.get(Calendar.MINUTE));
 		System.out.println("秒" + c.get(Calendar.SECOND));
 		System.out.println(c.get(Calendar.YEAR) + "年" + (c.get(Calendar.MONTH) + 1) + "月" + c.get(Calendar.DAY_OF_MONTH)
-				+ "日" + c.get(Calendar.HOUR) + "时" + c.get(Calendar.MINUTE) + "分钟" + c.get(Calendar.SECOND) + "秒");
+				+ "日" + c.get(Calendar.HOUR_OF_DAY) + "时" + c.get(Calendar.MINUTE) + "分钟" + c.get(Calendar.SECOND) + "秒");
 	}
 
 }
